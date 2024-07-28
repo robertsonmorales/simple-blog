@@ -1,4 +1,4 @@
-<?= require './config/database.php'; // Include database configuration
+<?php require './config/database.php'; // Include database configuration
 session_start();
 ?>
 <!DOCTYPE html>
@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Blog</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
